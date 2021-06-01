@@ -1,0 +1,16 @@
+class Sec
+{
+	static double area()
+	{
+		int r=2;
+		double t=34.6;
+		final double pi=3.142;
+		double c=pi*r*t;
+		return c;
+	}
+	public static void main(String[] args)
+	{ 
+		double x=area();
+		System.out.println(x);
+	}
+}

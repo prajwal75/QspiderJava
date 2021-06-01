@@ -1,0 +1,33 @@
+class Olx
+{
+	void search(String vehname)
+	{
+		System.out.println("search by vehical no ");
+	}
+	void search(int yor)
+	{
+		System.out.println("search by year ");
+	}
+	void search(String vehname,int yor)
+	{
+		System.out.println("search by vehical name and yor ");
+	}
+	void search(int yor,String vehname)
+	{
+		System.out.println("search by yor and vehical name ");
+	}
+
+}
+
+class Mainclass3 
+{
+	public static void main(String[] args) 
+	{
+		Olx l1=new Olx();
+		l1.search("Audi");
+		l1.search(1947);
+		l1.search("Audi",1947);
+		l1.search(1947,"Audi");
+
+	}
+}

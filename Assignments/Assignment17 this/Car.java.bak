@@ -1,0 +1,21 @@
+class Car
+{
+	String model;
+	String type;
+	int cost;
+
+	Car(String model,String type,int cost)
+	{
+	this.model=model;
+	this.colour=colour;
+	this.type=type;
+	}
+
+	public static void main(String[] args)
+	{
+		Car x=new Car("Altroz","petrol",500000);
+		System.out.println(x.model);
+		System.out.println(x.type);
+		System.out.println(x.cost);
+	}
+}

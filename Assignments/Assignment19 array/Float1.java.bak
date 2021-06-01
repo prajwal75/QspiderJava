@@ -1,0 +1,11 @@
+class Float1
+{
+	public static void main(String[] args)
+	{
+		float [] a= {0.56,55.87,54.58,998.55};
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
+	}
+}

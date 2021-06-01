@@ -1,0 +1,15 @@
+class Demo
+{
+	void disp()
+	{
+		System.out.println("hello java");
+	}
+}
+class Sample
+{
+	public static void main(String[] args)
+	{
+		Sample s1=new Sample();
+		s1.disp();
+	}
+}

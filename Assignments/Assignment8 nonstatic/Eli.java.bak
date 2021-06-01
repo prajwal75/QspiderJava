@@ -1,0 +1,16 @@
+class Eli
+{
+	void area()
+	{
+		final double pi=3.142;
+		int a=6;
+		int c=5;
+		double d=pi*a*c;
+	}
+	public static void main(String[] args)
+	{
+		new Eli().area();
+	
+	
+	}
+}

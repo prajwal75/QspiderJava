@@ -1,0 +1,20 @@
+class  Factorial
+{
+	static void facto(int fact)
+	{
+		for(int i=5;i>=1;i--)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+
+	public static void main(String[] args)
+	{
+		
+		facto(5);
+		facto(3);
+		facto(6);
+	}
+
+}

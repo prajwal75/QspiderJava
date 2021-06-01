@@ -1,0 +1,17 @@
+class Trap
+{
+	double area()
+	{
+		int a=34;
+		int b=5;
+		int h=4;
+		double c=0.5*(a+b)*h;
+		return c;
+	}
+	public static void main(String[] args)
+	{
+		Trap x1=new Trap();
+		double x=x1.area();
+		System.out.println(x);
+	}
+}
